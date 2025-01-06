@@ -47,7 +47,7 @@ DimPlot.metabolism <- function(obj, pathway, dimention.reduction.type = "umap", 
       labs(color = input.pathway) +
       #xlim(0, 2)+ ylim(0, 2)+
       xlab("UMAP 1") +ylab("UMAP 2") +
-      theme(aspect.ratio=1)+
+      #theme(aspect.ratio=1)+
       theme_bw()
       #theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
       #      panel.background = element_blank(), axis.line = element_line(colour = "black"))
